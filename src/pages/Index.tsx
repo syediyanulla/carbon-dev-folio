@@ -15,10 +15,10 @@ const Index = () => {
       {showPreloader && <Preloader onComplete={() => setShowPreloader(false)} />}
       <div className="min-h-screen bg-background">
         <Hero />
-        <Services />
         <WhyChooseMe />
         <Portfolio />
         <Contact />
+        <Services />
         <Footer />
       </div>
     </>
